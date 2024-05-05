@@ -1,0 +1,46 @@
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.post-card {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.post-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.post-card p {
+    margin-bottom: 10px;
+}
+
+.post-card .author {
+    font-weight: bold;
+}
+
+.post-card .ellipsis-icon {
+    float: right;
+    color: #888;
+}
+
+.post-card .ellipsis-icon:hover {
+    cursor: pointer;
+}
+
+.post-card .delete-icon {
+    float: right;
+    color: #f00;
+}
+
+.post-card .delete-icon:hover {
+    cursor: pointer;
+}

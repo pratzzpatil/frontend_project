@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <!-- TODO: Include Google Fonts file here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+    <!-- TODO: Include all your code for the header and home page here -->
+
+    <header>
+        
+        <div class="logo">
+            <h1>ScriBBler</h1>
+        </div>
+        <div class="subheading">
+            <p>Explore, Imagine, Create</p>
+        </div>
+
+        
+        <div class="buttons">
+            <button class="signup">Sign Up</button>
+            <button class="signin">Sign In</button>
+        </div>
+
+        
+        <div id="signupModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Get Started</h2>
+                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your username">
+                <input type="password" placeholder="Enter your password">
+                <input type="password" placeholder="Re-enter your password">
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+
+        
+        <div id="signinModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Welcome Back!</h2>
+                <input type="text" placeholder="Enter your username">
+                <input type="password" placeholder="Enter your password">
+                <button class="signin-btn">Sign In</button>
+                <p>Not a member? <a href="#" class="signup-link">Sign Up</a></p>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="home-page">
+        
+        <div class="buttons-section">
+            <button class="all-posts">All Posts</button>
+            <button class="create-post">Create Post</button>
+        </div>
+    </div>
+</body>
+
+</html>
